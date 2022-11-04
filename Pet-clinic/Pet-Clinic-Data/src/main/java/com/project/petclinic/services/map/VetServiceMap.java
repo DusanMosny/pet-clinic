@@ -4,10 +4,11 @@ import com.project.petclinic.model.Owner;
 import com.project.petclinic.model.Pet;
 import com.project.petclinic.model.Vet;
 import com.project.petclinic.services.CrudService;
+import com.project.petclinic.services.VetService;
 import java.util.Set;
 
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements
-    CrudService<Vet, Long> {
+    VetService {
 
   @Override
   public Set<Vet> findAll() {
