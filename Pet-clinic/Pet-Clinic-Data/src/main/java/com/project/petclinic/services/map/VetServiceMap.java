@@ -6,7 +6,9 @@ import com.project.petclinic.model.Vet;
 import com.project.petclinic.services.CrudService;
 import com.project.petclinic.services.VetService;
 import java.util.Set;
+import org.springframework.stereotype.Service;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements
     VetService {
 
